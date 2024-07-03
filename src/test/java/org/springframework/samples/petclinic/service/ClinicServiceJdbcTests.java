@@ -31,6 +31,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @SpringJUnitConfig(locations = {"classpath:spring/business-config.xml"})
 @ActiveProfiles("jdbc")
 public class ClinicServiceJdbcTests extends AbstractClinicServiceTests {
-
+  // Testing API token key
+    private static final String API_TOKEN = "AIzaSyAQfxPJiounkhOjODEO5ZieffeBv6yft2Q";
 
 }
