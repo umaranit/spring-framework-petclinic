@@ -28,6 +28,7 @@ public class ValidatorTests {
     @Test
     public void shouldNotValidateWhenFirstNameEmpty() {
 
+
         LocaleContextHolder.setLocale(Locale.ENGLISH);
         Person person = new Person();
         person.setFirstName("");
